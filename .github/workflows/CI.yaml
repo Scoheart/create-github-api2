@@ -18,7 +18,7 @@ jobs:
       - name: Configure GitHub Packages registry
         run: |
           echo "@jsuhub:registry=https://npm.pkg.github.com/" >> .npmrc
-          echo '//npm.pkg.github.com/:_authToken=${{ secrets.NPM_GITHUB_TOKEN }}' >> ~/.npmrc
+          echo '//npm.pkg.github.com/:_authToken=${{ secrets.NPM_GITHUB_PACKAGES_TOKEN }}' >> ~/.npmrc
 
       - run: pnpm install --no-frozen-lockfile
       - run: pnpm jf

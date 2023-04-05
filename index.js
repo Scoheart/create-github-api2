@@ -1,2 +1,2 @@
 console.log("SDf")
-let a
+let a =9

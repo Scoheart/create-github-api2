@@ -10,6 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "with-feishu": "^1.0.1"
+    "@jsuhub/jsu-feishu": "1.0.1"
   }
 }

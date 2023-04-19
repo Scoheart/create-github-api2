@@ -1,5 +1,5 @@
 {
-  "name": "feishu-test",
+  "name": "tools",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,6 +10,5 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@jsuhub/jsu-feishu": "1.0.1"
   }
 }
